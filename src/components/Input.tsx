@@ -11,7 +11,7 @@ export interface InputControlProps extends ComponentProps<'input'> {}
 export function Control(props: InputControlProps) {
   return (
     <input
-      className='mx-1 w-full border-0 bg-transparent p-0 text-zinc-900 placeholder-zinc-600'
+      className='w-full border-0 bg-transparent p-0 text-zinc-900 placeholder-zinc-600'
       {...props}
     />
   )

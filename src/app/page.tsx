@@ -183,7 +183,9 @@ export default function Home() {
           </div>
 
           <div className='flex items-center justify-end gap-2 pt-5'>
-            <Button variant='outline'>Cancel</Button>
+            <Button type='button' variant='outline'>
+              Cancel
+            </Button>
             <Button variant='primary'>Save</Button>
           </div>
         </form>

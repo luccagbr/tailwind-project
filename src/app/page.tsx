@@ -58,23 +58,25 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='lg:grid-cols-formpt-5 flex flex-col gap-3 lg:grid'>
+          <div className='grid gap-3 pt-5 lg:grid lg:grid-cols-form'>
             <label
               htmlFor='email'
               className='text-sm font-medium text-zinc-700 dark:text-zinc-300'>
               E-mail
             </label>
-            <Input.Root>
-              <Input.Prefix>
-                <Mail className='h-5 w-5 text-zinc-500' />
-              </Input.Prefix>
+            <div className='flex gap-3'>
+              <Input.Root>
+                <Input.Prefix>
+                  <Mail className='h-5 w-5 text-zinc-500' />
+                </Input.Prefix>
 
-              <Input.Control
-                id='email'
-                type='email'
-                defaultValue='luccavitalc@gmail.com'
-              />
-            </Input.Root>
+                <Input.Control
+                  id='email'
+                  type='email'
+                  defaultValue='luccavitalc@gmail.com'
+                />
+              </Input.Root>
+            </div>
           </div>
 
           <div className='flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form'>

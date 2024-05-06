@@ -139,26 +139,23 @@ export default function Home() {
 
                 <div className='flex items-center gap-1'>
                   <Button type='button' variant='ghost'>
-                    <Bold className='h-4 w-4 text-zinc-500' strokeWidth={3} />
+                    <Bold className='h-4 w-4' strokeWidth={3} />
                   </Button>
 
                   <Button type='button' variant='ghost'>
-                    <Italic className='h-4 w-4 text-zinc-500' strokeWidth={3} />
+                    <Italic className='h-4 w-4' strokeWidth={3} />
                   </Button>
 
                   <Button type='button' variant='ghost'>
-                    <Link className='h-4 w-4 text-zinc-500' strokeWidth={3} />
+                    <Link className='h-4 w-4' strokeWidth={3} />
                   </Button>
 
                   <Button type='button' variant='ghost'>
-                    <List className='h-4 w-4 text-zinc-500' strokeWidth={3} />
+                    <List className='h-4 w-4' strokeWidth={3} />
                   </Button>
 
                   <Button type='button' variant='ghost'>
-                    <ListOrdered
-                      className='h-4 w-4 text-zinc-500'
-                      strokeWidth={3}
-                    />
+                    <ListOrdered className='h-4 w-4' strokeWidth={3} />
                   </Button>
                 </div>
               </div>
